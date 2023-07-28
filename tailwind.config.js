@@ -5,11 +5,4 @@ module.exports = {
       extend: {},
     },
     plugins: [],
-    
-    container: {
-      center: true,
-    }
-    container: {
-      padding: '2rem',
-    },
   }

@@ -30,39 +30,44 @@
 <body>
     <header>
         <!-- nabar  -->
-        <div class="container mx-auto px-4 navbar bg-gray-100 p-6">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost btn-circle">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Homepage</a></li>
-                  <li><a>Product</a></li>
-                  <li><a>About</a></li>
-                </ul>
+        <div class="navbar bg-base-100 container mx-auto my-10 py-5 px-8 md:px-14 lg:px-72">
+          <div class="flex-none">
+            <button class="btn btn-square btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+          </div>
+          <div class="flex-1">
+            <a class="btn btn-ghost normal-case text-xl">Tea house</a>
+          </div>
+        </div>
+          <!-- banner section  -->
+          <div class="hero container mx-auto">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              
+              <div>
+                <div>
+                  <img src="./images/banner.png" class="max-w-sm" />
+                </div>
+                <div class="flex justify-center items-center bg-[#FFFFFF] shadow-md w-[230px] p-4 relative bottom-14 right-5">
+                  <i class="fa-solid fa-star text-4xl p-2 text-[#a3e635]"></i>
+                  <div>
+                    <p class="text-3xl font-extrabold p-1">5.00</p>
+                    <p class="text-base font-medium txt-[#777]">Trust Pilot Ratings</p>
+                  </div>
+               </div>
+              </div>
+              
+              
+              <div>
+                <h1 class="text-7xl font-extrabold">It's good <br> 
+                  tea time at The <br> Tea House</h1>
+                <p class="py-6 text-[#777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-[#F5C02C] to-[#B9440A] text-white">Explore More</button>
               </div>
             </div>
-            <div class="navbar-center">
-                <div class="w-[40px] h-[40px]">
-                    <img src="images/cup.png" alt="random image">
-                </div>
-              <a class="btn btn-ghost normal-case text-3xl font-bold">Tea House</a>
-            </div>
-            <div class="navbar-end">
-              <button class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-              </button>
-              <button class="btn btn-ghost btn-circle">
-                <div class="indicator">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                  <span class="badge badge-xs badge-primary indicator-item"></span>
-                </div>
-              </button>
-            </div>
           </div>
-    
     </header>
+    <!-- header section end  -->
     <main>
 
     </main>

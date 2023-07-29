@@ -161,7 +161,7 @@
             
           <!-- upcoming review  -->
 
-          <div class="flex-1 bg-white rounded-lg p-10 h-[233px] relative justify-center opacity-40 w-[430px] z-10">
+          <div class="flex-1 bg-white rounded-lg p-10 h-[233px] relative justify-center opacity-40 w-[430px] z-10 -mb-20">
             <div class="absolute -top-8 -left-8 border-4 border-white rounded-full">
               <img src="./images/client.png" alt="random image">
             </div>
@@ -197,7 +197,7 @@
           
           <!-- previous review  -->
 
-          <div class="flex-1 bg-white rounded-lg p-10 h-[233px] relative justify-center opacity-40 w-[430px] z-10">
+          <div class="flex-1 bg-white rounded-lg p-10 h-[233px] relative justify-center opacity-40 w-[430px] z-10 -mt-10">
             <div class="absolute -top-8 -left-8 border-4 border-white rounded-full">
               <img src="./images/client.png" alt="random image">
             </div>
@@ -279,16 +279,50 @@
     </main>
 
     <!-- footer section start -->
-    <footer class="bg-[#FFE7E6]">
+    <footer class="bg-[#FFE7E6] py-10">
       <section class="container mx-auto my-10 py-5 px-8 md:px-14 lg:px-40">
-        <div class="flex justify-between flex-col md:flex-row lg:flex-row">
-        <img class="w-[62px] h-[64px]" src="./images/cup.png" alt="logo">
+        <div class="flex justify-between flex-col md:flex-row lg:flex-row mb-14">
+        <img class="w-[62px] h-[64px] hidden md:block lg:block " src="./images/cup.png" alt="logo">
         <div class="flex items-center justify-center">
           <p class="text-xl font-medium px-5">Ready to get strated?</p>
           <button class="btn bg-gradient-to-r from-[#F5C02C] to-[#B9440A] text-white">Get Started</button>
         </div>
-
         </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
+          <div>
+            <h5 class="text-xl font-semibold text-[#1C1C1C] mb-3"> Quick Links</h5>
+            <p class="text-[#494949]">Home</p>
+            <p class="text-[#494949]">About Us</p>
+            <p class="text-[#494949]">Insurance</p>
+            <p class="text-[#494949]">Privacy Policy</p>
+          </div>
+          <div>
+            <h5 class="text-xl font-semibold text-[#1C1C1C] mb-3"> Our Service</h5>
+            <p class="text-[#494949]">Customized Tea Blends</p> 
+            <p class="text-[#494949]">Premium Tea Selection</p>
+            <p class="text-[#494949]">Tea Subscription Box</p>
+            <p class="text-[#494949]">Teaware and Accessories</p>
+          </div>
+          <div>
+            <h5 class="text-xl font-semibold text-[#1C1C1C] mb-3"> Help</h5>
+            <p class="text-[#494949]">FAQs</p>
+            <p class="text-[#494949]">Contact Us</p>
+          </div>
+          <div>
+            <h5 class="text-2xl font-semibold text-[#1C1C1C] mb-4"> Subscribe to our <br> newsletter</h5>
+            <input type="text" placeholder="Type here" class="input w-full max-w-xs" />
+          </div>
+          
+        </div>
+        <div class="flex justify-end py-5 mb-20 pr-12  md:pr-40 lg:pr-40">
+          <i class="fa-brands fa-facebook font-extrabold text-2xl pr-5"></i>
+          <i class="fa-brands fa-twitter font-extrabold text-2xl pr-5"></i>
+          <i class="fa-brands fa-instagram font-extrabold text-2xl pr-5"></i>
+        </div>
+
+        <h6 class="text-center text-[#494949]">© 2027 UIDesign.to - All rights reserved.</h6>
+
       </section>
     </footer>
 </body>
